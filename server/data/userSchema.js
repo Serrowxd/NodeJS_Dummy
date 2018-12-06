@@ -3,15 +3,15 @@ const mongoose = require('mongoose');
 const userSchema = new mongoose.Schema({
   // _id: mongoose.Schema.Types.ObjectId,
   username: String,
-  // summary: String,
+  summary: String,
   server: String,
   class: String,
-  // imgb: String,
-  // imgs: String,
-  // rating: String,
-  // twos: String,
-  // threes: String,
-  // rbgs: String,
+  imgb: String,
+  imgs: String,
+  rating: String,
+  twos: String,
+  threes: String,
+  rbgs: String,
 
   created: {
     type: Date,
